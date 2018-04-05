@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativeLayout">
+
+    <TextView
+        android:id="@+id/greetings"
+        style="@style/TextView"
+        android:text="@string/greetings" />
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/StartButton"
+        android:text="@string/start_button" />
+</RelativeLayout>

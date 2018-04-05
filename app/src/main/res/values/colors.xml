@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#A1887F</color>
+    <color name="textColor">#ffffff</color>
+    <color name="colorAccent">#6bff6b</color>
+    <color name="categories">#A1887F</color>
+    <color name="tabColor">#FFEB3B</color>
+    <color name="background_color_tablayout">#ffff1f</color>
+    <color name="textColor_list_item">#007300</color>
+    <color name="colorPrimaryDark_MyTheme">#A1887F</color>
+    <color name="tabIndicatorColor">#ffffff</color>
+    <color name="tabSelectedTextColor">#ffffff</color>
+    <color name="tabLayoutTextStyle_Color">#A8A19E</color>
+</resources>

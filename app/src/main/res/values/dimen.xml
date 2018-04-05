@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="button_left">60dp</dimen>
+    <dimen name="margin_bottom">70dp</dimen>
+    <dimen name="textSize_title_list_item">18sp</dimen>
+    <dimen name="textSize_description_list_item">16sp</dimen>
+    <dimen name="textSize_TabLayoutTextStyle">16sp</dimen>
+    <dimen name="greetings_size">25sp</dimen>
+    <dimen name="greetings_size2">50sp</dimen>
+    <dimen name="heading_size">50sp</dimen>
+</resources>

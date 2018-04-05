@@ -1,0 +1,108 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_MyTheme</item>
+    </style>
+
+    <style name="RelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/hungary3</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_bottom</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/greetings_size2</item>
+    </style>
+
+    <style name="TextView_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/heading_size</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/double_margin</item>
+        <item name="android:layout_marginBottom">@dimen/normal_margin</item>
+    </style>
+
+    <style name="StartButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">@dimen/normal_margin</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/double_margin</item>
+        <item name="android:textSize">@dimen/greetings_size</item>
+    </style>
+
+    <style name="StartButton_Land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:padding">@dimen/normal_margin</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/greetings_size</item>
+    </style>
+
+    <style name="CategoryTab">
+        <item name="tabIndicatorColor">@color/tabIndicatorColor</item>
+        <item name="tabSelectedTextColor">@color/tabSelectedTextColor</item>
+        <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabBackground">@drawable/textura</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/textSize_TabLayoutTextStyle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabColor</item>
+    </style>
+
+    <style name="TextContainer">
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_small</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:background">@drawable/textura</item>
+    </style>
+
+    <style name="TitleListItem">
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">@dimen/padding_small</item>
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:textSize">@dimen/textSize_title_list_item</item>
+    </style>
+
+    <style name="DescriptionListItem">
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingRight">@dimen/padding_small</item>
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/textSize_description_list_item</item>
+    </style>
+</resources>
