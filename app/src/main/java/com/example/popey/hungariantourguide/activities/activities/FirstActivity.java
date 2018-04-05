@@ -1,4 +1,4 @@
-package com.example.popey.hungariantourguide.activities;
+package com.example.popey.hungariantourguide.activities.activities;
 
 
 import android.content.Intent;

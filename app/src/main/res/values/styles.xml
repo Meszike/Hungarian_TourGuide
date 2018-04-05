@@ -63,11 +63,10 @@
         <item name="android:textSize">@dimen/greetings_size</item>
     </style>
 
-    <style name="CategoryTab">
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@color/tabIndicatorColor</item>
         <item name="tabSelectedTextColor">@color/tabSelectedTextColor</item>
         <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>
-        <item name="tabMode">scrollable</item>
         <item name="tabBackground">@drawable/textura</item>
     </style>
 

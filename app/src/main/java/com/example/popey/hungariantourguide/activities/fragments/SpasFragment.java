@@ -51,7 +51,7 @@ public class SpasFragment extends Fragment {
         /**
          * Find the {@link ListView} object in the view hierarchy.
          */
-        ListView listView =  rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         /**
          *  USe the PagerAdapter to display list items for each {@link Sight} in the list..

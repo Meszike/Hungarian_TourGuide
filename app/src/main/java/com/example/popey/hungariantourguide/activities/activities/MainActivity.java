@@ -1,4 +1,4 @@
-package com.example.popey.hungariantourguide.activities;
+package com.example.popey.hungariantourguide.activities.activities;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
@@ -8,7 +8,7 @@ import android.os.Bundle;
 
 import com.example.popey.hungariantourguide.R;
 
-public class MainActivity  extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class MainActivity  extends AppCompatActivity {
         /**
          * Find the view pager that will allow the user to swipe between fragments
          */
-        ViewPager viewPager =  findViewById(R.id.viewpager);
+        ViewPager viewPager = findViewById(R.id.viewpager);
         /**
          * Create an adapter that knows which fragment should be shown on each page
          */
@@ -32,7 +32,7 @@ public class MainActivity  extends AppCompatActivity {
         /**
          *  Find the tab layout that shows the tabs
          */
-        TabLayout tabLayout =  findViewById(R.id.tabs);
+        TabLayout tabLayout = findViewById(R.id.tabs);
         /**
          * Connect the tab layout with the view pager.
          */
